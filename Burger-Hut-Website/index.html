@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Hut</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <nav class="navbar">
+            <a href="#menu">Menu</a>
+            <a href="#about">About Us</a>
+            <a href="#locations">Locations</a>
+            <a href="#contact">Contact</a>
+            <a href="#order" class="cta">Order Now</a>
+        </nav>
+        
+        <div class="hero-content">
+            <h1>Savor the Flavor at Burger Hut!</h1>
+            <p>Fresh Ingredients, Handcrafted Taste.</p>
+            <a href="#order" class="cta-button">Order Now</a>
+        </div>
+    </header>
+
+    <!-- Featured Burgers Section -->
+    <section id="featured" class="featured-section">
+        <h2>Our Bestsellers</h2>
+        <div class="burger-cards">
+            <div class="burger-card">
+                <img src="./images/feature 01.jpg" alt="Signature Burger 1">
+                <h3>Cheesy Delight</h3>
+                <p>Price: $10.99</p>
+                <p>Made with 100% beef and topped with melted cheese.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="burger-card">
+                <img src="./images/feature 02.jpg" alt="Signature Burger 2">
+                <h3>Spicy BBQ</h3>
+                <p>Price: $12.99</p>
+                <p>Grilled to perfection with spicy BBQ sauce.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="burger-card">
+                <img src="./images/feature 03.jpg" alt="Signature Burger 3">
+                <h3>Mushroom Swiss</h3>
+                <p>Price: $11.99</p>
+                <p>Loaded with sautéed mushrooms and Swiss cheese.</p>
+                <button>Order Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why" class="why-section">
+        <h2>What Makes Our Burgers Special?</h2>
+        <div class="icon-grid">
+            <div class="icon">
+                <img src="./images/vegetable.png" alt="Fresh Ingredients">
+                <p>Fresh Ingredients</p>
+            </div>
+            <div class="icon">
+                <img src="./images/chef.png" alt="Handcrafted">
+                <p>Handcrafted</p>
+            </div>
+            <div class="icon">
+                <img src="./images/motorbike.png" alt="Fast Delivery">
+                <p>Fast Delivery</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>At Burger Hut, we believe in serving delicious, handcrafted burgers made from the finest ingredients.</p>
+        <div class="gallery">
+            <img src="./images/about 1.jpg" alt="Chef">
+            <img src="./images/about 2.jpg" alt="Customers Enjoying Burgers">
+        </div>
+    </section>
+
+    <!-- Menu Preview Section -->
+    <section class="menu-preview">
+        <h2>Menu Preview</h2>
+        <div class="carousel-slider">
+            <div class="carousel-item">
+                <img src="./images/menu 1.jpg" alt="Delicious Burgers" class="carousel-image">
+                <h3>Burgers</h3>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/menu 2.jpg" alt="Tasty Sides" class="carousel-image">
+                <h3>Sides</h3>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/menu 3.jpg" alt="Refreshing Drinks" class="carousel-image">
+                <h3>Drinks</h3>
+            </div>
+            <!-- Add more items as needed -->
+        </div>
+        <a href="#full-menu" class="explore-button">Explore Full Menu</a>
+    </section>
+    
+
+    <!-- Customer Reviews Section -->
+    <section id="reviews" class="reviews-section">
+        <img src="./images/cus rev.jpg" alt="">
+        <h2>Hear from Our Customers</h2>
+        <div class="review-carousel">
+            <blockquote>
+                "Best burger I've ever had!"
+            </blockquote>
+            <blockquote>
+                "Absolutely love the spicy BBQ!"
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Special Offers Section -->
+    <section id="offers" class="offers-section">
+        <h2>Special Offers</h2>
+        <div class="offers">
+            <img src="./images/special offer.jpg" alt="">
+            <p>Buy 1 Get 1 Free on all burgers!</p>
+            <div class="countdown-timer">Limited Time Offer: <span id="countdown">02:00:00</span></div>
+        </div>
+    </section>
+
+    <!-- Location & Contact Section -->
+    <section id="locations" class="location-contact-section">
+        <h2>Location & Contact</h2>
+        <div id="map">Google Maps Embed Here</div>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Store Hours: Mon-Sun 10 AM - 11 PM</p>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="cta-section">
+        <h2>Order Online Now</h2>
+        <a href="#order" class="cta-button">Order Online Now</a>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+        <img src="./images/footer.jpg" alt="">
+        <div class="quick-links">
+            <a href="#menu">Menu</a>
+            <a href="#locations">Locations</a>
+            <a href="#careers">Careers</a>
+        </div>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+        <form class="newsletter-form">
+            <input type="email" placeholder="Subscribe to our newsletter">
+            <button type="submit">Subscribe</button>
+        </form>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
